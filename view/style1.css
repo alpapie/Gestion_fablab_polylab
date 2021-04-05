@@ -1,0 +1,156 @@
+*{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Century Gothic';
+}
+li{
+    background-color: #3D4F58;
+
+}
+a{
+    text-decoration: none;
+}
+main{
+  width: 100%;
+}
+header.header{
+
+    border-top: 0px ;
+height: 90px;
+background-color:rgb(248, 248, 248);
+width: 100%;
+}   
+div.title{
+    margin: AUTO;
+    width: 60%;
+    color: rgb(112, 112, 112);
+    font-size: 30px;
+}
+div.logo  {
+    position: absolute;
+    top: 50px;
+float: left;
+width: 15%;
+
+}
+p.myBrand{
+    color: rgb(255, 145, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+   
+    border-radius: 100px;
+    
+}
+h1.text{
+margin-top: 20%;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 30%;
+font-size: 50PX;
+color: rgba(0, 0, 0, 0.356);
+
+}
+/*div.sidebarnav{
+    height: 500px;
+
+    border-top: rgb(146, 146, 146) solid 5px ;
+    border-bottom: rgb(146, 146, 146) solid 5px ;
+    display: flex;
+    flex-direction: column;
+    width:10% ;
+    margin-left:0 ;
+    background-color: rgb(248, 248, 248)    ;
+}
+div.sidebarnav >H3{
+margin-top: 20px;
+text-align: center;
+font-size: 30px;
+
+}
+div.nav{
+margin-top: 30px;
+
+}
+*/a.nav-item{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(53, 196, 206);
+    font-size: 15px;
+    margin-left: 10px;
+    transition: ease-in-out .2s;
+}
+li a.nav-item:hover {
+color:#e7912c;
+font-size: 20px;
+
+}
+li a.nav-item:focus {
+    color:red;
+    font-size: 20px;
+}
+                                div.bigcontainer{
+                                    display: flex;
+                                    flex-direction: row;
+                                    height: 100%;
+                                    
+                                }
+div.table{
+margin: 05%;
+width:100%;
+}
+table{
+    width: 90%;
+    height: 370px;
+}
+div>table{
+    background-color:#F2F2F2;
+    font-family:'arial';
+    text-align:center;
+}
+main{
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.377);
+   
+}
+tr{
+    background-color:#F9F9F9; 
+    border:solid black 1px;
+}
+th{
+    background-color: rgba(167, 192, 240, 0.568);
+}
+td{
+    border:black 0 solid;
+border-radius:05px;
+} 
+footer.footer{
+text-align: center;
+background-color: rgb(212, 211, 211) ;
+height: 50px;
+bottom: 0;
+}
+
+body{
+    font-family:'Arial';
+}
+
+fieldset > legend{
+text-align:center;
+
+}
+div.form{
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+width: 50%;
+margin: auto;
+margin-top: 100px;
+height: 250px;
+padding: 40px;
+border-radius: 10px;
+background-color: rgba(167, 193, 240, 0.288);
+box-shadow: inset 1px 5px 20px rgba(0, 0, 0, 0.377);
+margin-bottom: 100px;
+}
